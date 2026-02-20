@@ -60,12 +60,12 @@ unset($__defined_vars, $__key, $__value); ?>
     <link rel="icon" href="<?php echo e(asset('favicon.png')); ?>" type="image/png">
     <link rel="shortcut icon" href="<?php echo e(asset('favicon.ico')); ?>" type="image/x-icon">
     <link rel="apple-touch-icon" href="<?php echo e(asset('favicon.png')); ?>">
-    <title><?php echo e($title ?? 'PT Tirta Bhumi Indonesia'); ?> | Solusi Digital & Pengadaan Terpadu</title>
+    <title><?php echo e($title ?? 'PT Indepth Mental Wellness'); ?> | Solusi Digital & Pengadaan Terpadu</title>
     <meta name="description"
         content="<?php echo e($meta_description ?? $description ?? 'Mitra Strategis Transformasi Digital, Infrastruktur IT, Pengembangan SDM, dan Pengadaan Barang & Jasa Terpadu (B2B/B2G) di Indonesia.'); ?>">
     <meta name="keywords"
-        content="PT Tirta Bhumi Indonesia, Jasa Digital Marketing, Web Development, Software House Indonesia, Pengadaan Barang dan Jasa, IT Infrastructure, Event Organizer, Pelatihan SDM, B2G Procurement, Vendor Pemerintah">
-    <meta name="author" content="PT Tirta Bhumi Indonesia">
+        content="PT Indepth Mental Wellness, Jasa Digital Marketing, Web Development, Software House Indonesia, Pengadaan Barang dan Jasa, IT Infrastructure, Event Organizer, Pelatihan SDM, B2G Procurement, Vendor Pemerintah">
+    <meta name="author" content="PT Indepth Mental Wellness">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="<?php echo e(url()->current()); ?>">
 
@@ -80,7 +80,7 @@ unset($__defined_vars, $__key, $__value); ?>
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "PT Tirta Bhumi Indonesia",
+      "name": "PT Indepth Mental Wellness",
       "url": "<?php echo e(url('/')); ?>",
       "logo": "<?php echo e(asset('favicon.png')); ?>",
       "description": "<?php echo e($meta_description ?? $description ?? 'Mitra Strategis Solusi Digital, Infrastruktur, dan Pengadaan Terpadu.'); ?>",
@@ -95,7 +95,7 @@ unset($__defined_vars, $__key, $__value); ?>
       },
       "sameAs": [
         "https://www.instagram.com/InDepth Mental Wellness.id/",
-        "https://linkedin.com/company/pt-tirta-bhumi-indonesia",
+        "https://linkedin.com/company/pt-Indepth Mental Wellness-indonesia",
         "https://www.facebook.com/InDepth Mental Wellnessid/"
       ]
     }
@@ -104,7 +104,7 @@ unset($__defined_vars, $__key, $__value); ?>
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo e(url()->current()); ?>">
-    <meta property="og:title" content="<?php echo e($title ?? 'PT Tirta Bhumi Indonesia'); ?> | Solusi Digital & Pengadaan Terpadu">
+    <meta property="og:title" content="<?php echo e($title ?? 'PT Indepth Mental Wellness'); ?> | Solusi Digital & Pengadaan Terpadu">
     <meta property="og:description"
         content="<?php echo e($meta_description ?? $description ?? 'Mitra Strategis Solusi Digital, Infrastruktur, dan Pengadaan Terpadu untuk Pemerintah dan Korporasi.'); ?>">
     <meta property="og:image" content="<?php echo e(asset('favicon.png')); ?>">
@@ -113,7 +113,7 @@ unset($__defined_vars, $__key, $__value); ?>
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="<?php echo e(url()->current()); ?>">
     <meta property="twitter:title"
-        content="<?php echo e($title ?? 'PT Tirta Bhumi Indonesia'); ?> | Solusi Digital & Pengadaan Terpadu">
+        content="<?php echo e($title ?? 'PT Indepth Mental Wellness'); ?> | Solusi Digital & Pengadaan Terpadu">
     <meta property="twitter:description"
         content="<?php echo e($meta_description ?? $description ?? 'Mitra Strategis Solusi Digital, Infrastruktur, dan Pengadaan Terpadu untuk Pemerintah dan Korporasi.'); ?>">
     <meta property="twitter:image" content="<?php echo e(asset('favicon.png')); ?>">
@@ -441,7 +441,7 @@ unset($__defined_vars, $__key, $__value); ?>
                     <div>
                         <h4 class="font-bold text-slate-800 mb-4"><?php echo e(__('messages.connect')); ?></h4>
                         <ul class="space-y-2 text-sm text-slate-500">
-                            <li><a href="https://linkedin.com/company/pt-tirta-bhumi-indonesia" target="_blank"
+                            <li><a href="https://linkedin.com/company/pt-Indepth Mental Wellness-indonesia" target="_blank"
                                     rel="noopener noreferrer"
                                     class="hover:text-indigo-600 transition-all hover:translate-x-1 inline-block">LinkedIn</a>
                             </li>
@@ -463,7 +463,7 @@ unset($__defined_vars, $__key, $__value); ?>
                     </div>
                 </div>
                 <div class="pt-8 border-t border-slate-200/50 text-center text-slate-400 text-sm">
-                    &copy; <?php echo e(date('Y')); ?> PT Tirta Bhumi Indonesia. All rights reserved.
+                    &copy; <?php echo e(date('Y')); ?> PT Indepth Mental Wellness. All rights reserved.
                 </div>
             </div>
         </footer>
@@ -606,7 +606,7 @@ unset($__defined_vars, $__key, $__value); ?>
                                 </svg>
                             </a>
                             <!-- LinkedIn -->
-                            <a href="https://linkedin.com/company/pt-tirta-bhumi-indonesia" target="_blank"
+                            <a href="https://linkedin.com/company/pt-Indepth Mental Wellness-indonesia" target="_blank"
                                 rel="noopener noreferrer"
                                 class="w-10 h-10 rounded-full border border-slate-300 flex items-center justify-center text-slate-600 hover:border-indigo-600 hover:text-indigo-600 transition-all hover:-translate-y-1 hover:shadow-md">
                                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -953,4 +953,4 @@ unset($__defined_vars, $__key, $__value); ?>
 </body>
 
 </html>
-<?php /**PATH D:\InDepth\indepth\resources\views/components/layout.blade.php ENDPATH**/ ?>
+<?php /**PATH /Users/juchr/Documents/Herd/indepth/resources/views/components/layout.blade.php ENDPATH**/ ?>

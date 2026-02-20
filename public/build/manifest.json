@@ -1,6 +1,13 @@
 {
+  "_AdminLayout-bHVa-UTO.js": {
+    "file": "assets/AdminLayout-bHVa-UTO.js",
+    "name": "AdminLayout",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
   "resources/css/app.css": {
-    "file": "assets/app-DrzXfsIG.css",
+    "file": "assets/app-PUL7FCX1.css",
     "src": "resources/css/app.css",
     "isEntry": true,
     "name": "app",
@@ -9,7 +16,7 @@
     ]
   },
   "resources/css/filament/admin/theme.css": {
-    "file": "assets/theme-5yNhHr3a.css",
+    "file": "assets/theme-DvO-x3Ro.css",
     "src": "resources/css/filament/admin/theme.css",
     "isEntry": true,
     "name": "theme",
@@ -17,10 +24,84 @@
       "theme.css"
     ]
   },
-  "resources/js/app.js": {
-    "file": "assets/app-CAiCLEjY.js",
+  "resources/js/Pages/Admin/Dashboard.jsx": {
+    "file": "assets/Dashboard-DfERsFA2.js",
+    "name": "Dashboard",
+    "src": "resources/js/Pages/Admin/Dashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AdminLayout-bHVa-UTO.js"
+    ],
+    "css": [
+      "assets/app-PUL7FCX1.css"
+    ]
+  },
+  "resources/js/Pages/Admin/Users/Create.jsx": {
+    "file": "assets/Create-DXLJ436-.js",
+    "name": "Create",
+    "src": "resources/js/Pages/Admin/Users/Create.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AdminLayout-bHVa-UTO.js"
+    ],
+    "css": [
+      "assets/app-PUL7FCX1.css"
+    ]
+  },
+  "resources/js/Pages/Admin/Users/Edit.jsx": {
+    "file": "assets/Edit-DiGDERmu.js",
+    "name": "Edit",
+    "src": "resources/js/Pages/Admin/Users/Edit.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AdminLayout-bHVa-UTO.js"
+    ],
+    "css": [
+      "assets/app-PUL7FCX1.css"
+    ]
+  },
+  "resources/js/Pages/Admin/Users/Index.jsx": {
+    "file": "assets/Index-B1e3_Xp-.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Admin/Users/Index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AdminLayout-bHVa-UTO.js"
+    ],
+    "css": [
+      "assets/app-PUL7FCX1.css"
+    ]
+  },
+  "resources/js/Pages/Welcome.jsx": {
+    "file": "assets/Welcome-DKRVhSeB.js",
+    "name": "Welcome",
+    "src": "resources/js/Pages/Welcome.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "css": [
+      "assets/app-PUL7FCX1.css"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-BiqyIzGp.js",
     "name": "app",
-    "src": "resources/js/app.js",
-    "isEntry": true
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Admin/Dashboard.jsx",
+      "resources/js/Pages/Admin/Users/Create.jsx",
+      "resources/js/Pages/Admin/Users/Edit.jsx",
+      "resources/js/Pages/Admin/Users/Index.jsx",
+      "resources/js/Pages/Welcome.jsx"
+    ],
+    "css": [
+      "assets/app-PUL7FCX1.css"
+    ]
   }
 }

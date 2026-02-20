@@ -3,72 +3,60 @@
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 @source '../**/*.blade.php';
+@source '../**/*.jsx';
 @source '../**/*.js';
-@source '../../app/Filament/**/*.php';
-@source '../../app/Livewire/**/*.php';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-heading: 'Roboto', ui-sans-serif, system-ui, sans-serif;
+    --font-sans: 'Roboto', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /* Premium Metallic Gold Palette */
+    --color-luxury-gold-50: #fdfaf3;
+    --color-luxury-gold-100: #fbf5e5;
+    --color-luxury-gold-200: #f5e4af;
+    --color-luxury-gold-300: #eed378;
+    --color-luxury-gold-400: #e5bd47;
+    --color-luxury-gold-500: #dca324;
+    /* Core Gold */
+    --color-luxury-gold-600: #c2831f;
+    --color-luxury-gold-700: #9b5a1c;
+    --color-luxury-gold-800: #81481e;
+    --color-luxury-gold-900: #6f3b1e;
+
+    /* Deep Luxury Dark (Almost Black/Charcoal) */
+    --color-luxury-dark: #0a0a0a;
+    --color-luxury-dark-card: #141414;
+    --color-luxury-dark-border: #262626;
+
+    /* Crisp Luxury Light */
+    --color-luxury-light: #fafafa;
+    --color-luxury-light-card: #ffffff;
+    --color-luxury-light-border: #eef0f2;
 }
 
-/* Neumorphism Utilities */
-.neu-flat {
-    background: #eef2f6;
-    box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #ffffff;
-    border: 1px solid rgba(255, 255, 255, 0.4);
-}
-
-.neu-pressed {
-    background: #eef2f6;
-    box-shadow: inset 6px 6px 12px #d1d9e6, inset -6px -6px 12px #ffffff;
-}
-
-.neu-btn {
-    background: #eef2f6;
-    box-shadow: 6px 6px 12px #d1d9e6, -6px -6px 12px #ffffff;
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    transition: all 0.2s ease;
-}
-
-.neu-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #ffffff;
-}
-
-.neu-btn:active {
-    transform: translateY(0);
-    box-shadow: inset 4px 4px 8px #d1d9e6, inset -4px -4px 8px #ffffff;
-}
-
-.neu-icon {
-    background: #eef2f6;
-    box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #ffffff;
-    border-radius: 50%;
-}
-
-@keyframes blob {
-    0% {
-        transform: translate(0px, 0px) scale(1);
+/* Base Styles */
+@layer base {
+    body {
+        @apply font-sans antialiased bg-luxury-light text-luxury-dark dark:bg-luxury-dark dark:text-luxury-light transition-colors duration-300;
+        /* Subtle texture for dark mode */
+        background-image: radial-gradient(circle at 50% 0%, rgba(220, 163, 36, 0.03) 0%, transparent 50%);
     }
 
-    33% {
-        transform: translate(30px, -50px) scale(1.1);
+    .dark body {
+        background-image: radial-gradient(circle at 50% 0%, rgba(220, 163, 36, 0.08) 0%, transparent 60%);
     }
 
-    66% {
-        transform: translate(-20px, 20px) scale(0.9);
-    }
-
-    100% {
-        transform: translate(0px, 0px) scale(1);
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-heading tracking-wide;
     }
 }
 
-.animate-blob {
-    animation: blob 7s infinite;
-}
-
+/* Animations */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -85,23 +73,7 @@
     animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-.animation-delay-2000 {
-    animation-delay: 2s;
-}
-
-.animation-delay-4000 {
-    animation-delay: 4s;
-}
-
-/* Prose Link Styling */
+/* Prose customizations for Markdown/Content */
 .prose a {
-    color: #4f46e5;
-    /* indigo-600 */
-    text-decoration: underline;
-    font-weight: 600;
-}
-
-.prose a:hover {
-    color: #4338ca;
-    /* indigo-700 */
+    @apply text-luxury-gold-500 hover:text-luxury-gold-600 dark:text-luxury-gold-400 dark:hover:text-luxury-gold-300 underline font-semibold transition-colors duration-200;
 }

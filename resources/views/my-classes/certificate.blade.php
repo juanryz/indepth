@@ -85,7 +85,7 @@
             
             <!-- Header Logos -->
             <div class="flex justify-between items-center w-full px-8">
-                <img src="{{ asset('images/logo.png') }}" alt="Tirta Bhumi" class="h-16 object-contain">
+                <img src="{{ asset('images/logo.png') }}" alt="Indepth Mental Wellness" class="h-16 object-contain">
                 <div class="text-right">
                     <h2 class="text-xl font-bold text-indigo-600 tracking-tighter">UpVenture</h2>
                     <p class="text-[10px] text-slate-500 uppercase tracking-widest">Learning Platform</p>
@@ -116,7 +116,7 @@
             <!-- Footer / Signatures -->
             <div class="flex justify-between items-end w-full px-12 mt-8">
                 <div class="text-center">
-                    <p class="text-indigo-600 font-bold text-lg">PT Tirta Bhumi Indonesia</p>
+                    <p class="text-indigo-600 font-bold text-lg">PT Indepth Mental Wellness</p>
                     <div class="w-48 h-px bg-slate-300 my-2"></div>
                     <p class="text-xs text-slate-400 uppercase tracking-wider">Organizer</p>
                 </div>

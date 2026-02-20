@@ -7,7 +7,7 @@
         </div>
 
         <div class="container mx-auto px-6 relative z-10 max-w-2xl">
-            <!-- Tirta Bhumi Solid Neumorphic Card -->
+            <!-- Indepth Mental Wellness Solid Neumorphic Card -->
             <div class="neu-flat p-12 md:p-20 rounded-[3rem] border border-white/60 text-center animate-fade-in">
                 
                 <!-- Status Icon with Glow -->

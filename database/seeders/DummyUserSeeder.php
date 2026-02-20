@@ -48,7 +48,7 @@ class DummyUserSeeder extends Seeder
                     'name' => $user->name,
                     'email' => $user->email,
                     'phone' => '081234567890',
-                    'institution' => 'Tirta Bhumi',
+                    'institution' => 'Indepth Mental Wellness',
                     'status' => 'completed', // Assuming 'completed' makes it 'purchased'
                     'payment_method' => 'bank_transfer',
                     'payment_status' => 'paid',

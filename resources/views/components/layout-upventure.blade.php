@@ -355,7 +355,7 @@
                 <div>
                     <h4 class="font-bold text-slate-800 mb-4">{{ __('messages.connect') }}</h4>
                     <ul class="space-y-2 text-sm text-slate-500">
-                        <li><a href="https://linkedin.com/company/pt-tirta-bhumi-indonesia" target="_blank"
+                        <li><a href="https://linkedin.com/company/pt-Indepth Mental Wellness-indonesia" target="_blank"
                                 rel="noopener noreferrer"
                                 class="hover:text-indigo-600 transition-all hover:translate-x-1 inline-block">LinkedIn</a>
                         </li>
@@ -375,7 +375,7 @@
                 </div>
             </div>
             <div class="pt-8 border-t border-slate-200/50 text-center text-slate-400 text-sm">
-                &copy; {{ date('Y') }} PT Tirta Bhumi Indonesia. All rights reserved.
+                &copy; {{ date('Y') }} PT Indepth Mental Wellness. All rights reserved.
             </div>
         </div>
     </footer>
@@ -485,7 +485,7 @@
                             {{ __('messages.connect') }}
                         </p>
                         <div class="flex justify-center gap-6">
-                            <a href="https://linkedin.com/company/pt-tirta-bhumi-indonesia" target="_blank"
+                            <a href="https://linkedin.com/company/pt-Indepth Mental Wellness-indonesia" target="_blank"
                                 rel="noopener noreferrer"
                                 class="text-slate-400 hover:text-indigo-600 transition-colors">
                                 <span class="sr-only">LinkedIn</span>

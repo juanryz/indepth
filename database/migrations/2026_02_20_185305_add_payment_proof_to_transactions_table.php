@@ -10,9 +10,8 @@ return new class extends Migration {
      */
     public function up(): void
     {
-        Schema::table('business_wifi_orders', function (Blueprint $table) {
-            $table->string('latitude')->nullable()->after('status');
-            $table->string('longitude')->nullable()->after('latitude');
+        Schema::table('transactions', function (Blueprint $table) {
+            $table->string('payment_proof')->nullable()->after('status');
         });
     }
 
@@ -21,8 +20,8 @@ return new class extends Migration {
      */
     public function down(): void
     {
-        Schema::table('business_wifi_orders', function (Blueprint $table) {
-            $table->dropColumn(['latitude', 'longitude']);
+        Schema::table('transactions', function (Blueprint $table) {
+            $table->dropColumn('payment_proof');
         });
     }
 };

@@ -32,12 +32,12 @@
     <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
     <link rel="apple-touch-icon" href="{{ asset('favicon.png') }}">
-    <title>{{ $title ?? 'PT Tirta Bhumi Indonesia' }} | Solusi Digital & Pengadaan Terpadu</title>
+    <title>{{ $title ?? 'PT Indepth Mental Wellness' }} | Solusi Digital & Pengadaan Terpadu</title>
     <meta name="description"
         content="{{ $meta_description ?? $description ?? 'Mitra Strategis Transformasi Digital, Infrastruktur IT, Pengembangan SDM, dan Pengadaan Barang & Jasa Terpadu (B2B/B2G) di Indonesia.' }}">
     <meta name="keywords"
-        content="PT Tirta Bhumi Indonesia, Jasa Digital Marketing, Web Development, Software House Indonesia, Pengadaan Barang dan Jasa, IT Infrastructure, Event Organizer, Pelatihan SDM, B2G Procurement, Vendor Pemerintah">
-    <meta name="author" content="PT Tirta Bhumi Indonesia">
+        content="PT Indepth Mental Wellness, Jasa Digital Marketing, Web Development, Software House Indonesia, Pengadaan Barang dan Jasa, IT Infrastructure, Event Organizer, Pelatihan SDM, B2G Procurement, Vendor Pemerintah">
+    <meta name="author" content="PT Indepth Mental Wellness">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="{{ url()->current() }}">
 
@@ -52,7 +52,7 @@
     {
       "@@context": "https://schema.org",
       "@@type": "Organization",
-      "name": "PT Tirta Bhumi Indonesia",
+      "name": "PT Indepth Mental Wellness",
       "url": "{{ url('/') }}",
       "logo": "{{ asset('favicon.png') }}",
       "description": "{{ $meta_description ?? $description ?? 'Mitra Strategis Solusi Digital, Infrastruktur, dan Pengadaan Terpadu.' }}",
@@ -67,7 +67,7 @@
       },
       "sameAs": [
         "https://www.instagram.com/InDepth Mental Wellness.id/",
-        "https://linkedin.com/company/pt-tirta-bhumi-indonesia",
+        "https://linkedin.com/company/pt-Indepth Mental Wellness-indonesia",
         "https://www.facebook.com/InDepth Mental Wellnessid/"
       ]
     }
@@ -76,7 +76,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:title" content="{{ $title ?? 'PT Tirta Bhumi Indonesia' }} | Solusi Digital & Pengadaan Terpadu">
+    <meta property="og:title" content="{{ $title ?? 'PT Indepth Mental Wellness' }} | Solusi Digital & Pengadaan Terpadu">
     <meta property="og:description"
         content="{{ $meta_description ?? $description ?? 'Mitra Strategis Solusi Digital, Infrastruktur, dan Pengadaan Terpadu untuk Pemerintah dan Korporasi.' }}">
     <meta property="og:image" content="{{ asset('favicon.png') }}">
@@ -85,7 +85,7 @@
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="{{ url()->current() }}">
     <meta property="twitter:title"
-        content="{{ $title ?? 'PT Tirta Bhumi Indonesia' }} | Solusi Digital & Pengadaan Terpadu">
+        content="{{ $title ?? 'PT Indepth Mental Wellness' }} | Solusi Digital & Pengadaan Terpadu">
     <meta property="twitter:description"
         content="{{ $meta_description ?? $description ?? 'Mitra Strategis Solusi Digital, Infrastruktur, dan Pengadaan Terpadu untuk Pemerintah dan Korporasi.' }}">
     <meta property="twitter:image" content="{{ asset('favicon.png') }}">
@@ -366,7 +366,7 @@
                     <div>
                         <h4 class="font-bold text-slate-800 mb-4">{{ __('messages.connect') }}</h4>
                         <ul class="space-y-2 text-sm text-slate-500">
-                            <li><a href="https://linkedin.com/company/pt-tirta-bhumi-indonesia" target="_blank"
+                            <li><a href="https://linkedin.com/company/pt-Indepth Mental Wellness-indonesia" target="_blank"
                                     rel="noopener noreferrer"
                                     class="hover:text-indigo-600 transition-all hover:translate-x-1 inline-block">LinkedIn</a>
                             </li>
@@ -388,7 +388,7 @@
                     </div>
                 </div>
                 <div class="pt-8 border-t border-slate-200/50 text-center text-slate-400 text-sm">
-                    &copy; {{ date('Y') }} PT Tirta Bhumi Indonesia. All rights reserved.
+                    &copy; {{ date('Y') }} PT Indepth Mental Wellness. All rights reserved.
                 </div>
             </div>
         </footer>
@@ -511,7 +511,7 @@
                                 </svg>
                             </a>
                             <!-- LinkedIn -->
-                            <a href="https://linkedin.com/company/pt-tirta-bhumi-indonesia" target="_blank"
+                            <a href="https://linkedin.com/company/pt-Indepth Mental Wellness-indonesia" target="_blank"
                                 rel="noopener noreferrer"
                                 class="w-10 h-10 rounded-full border border-slate-300 flex items-center justify-center text-slate-600 hover:border-indigo-600 hover:text-indigo-600 transition-all hover:-translate-y-1 hover:shadow-md">
                                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

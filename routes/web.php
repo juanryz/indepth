@@ -10,7 +10,10 @@ use App\Http\Controllers\AiChatController;
 
 // Public Routes
 Route::get('/', function () {
-    return view('welcome');
+    return \Inertia\Inertia::render('Welcome', [
+        'canLogin' => Route::has('login'),
+        'canRegister' => Route::has('register'),
+    ]);
 });
 
 Route::get('/wifimurah', function () {
@@ -264,3 +267,36 @@ Route::get('lang/{locale}', function ($locale) {
     }
     return back();
 })->name('locale.switch');
+
+// React Admin Panel Routes
+Route::prefix('admin')->name('admin.')->middleware(['auth', 'verified', 'role:super_admin|admin'])->group(function () {
+    Route::get('/', [\App\Http\Controllers\Admin\AdminController::class, 'dashboard'])->name('dashboard');
+    Route::resource('users', \App\Http\Controllers\Admin\UserController::class);
+});
+
+// Clinic Routes
+Route::prefix('clinic')->name('clinic.')->middleware(['auth', 'verified'])->group(function () {
+    // Therapist / Admin Routes
+    Route::middleware(['role:admin|super_admin|partner'])->group(function () {
+        Route::get('/schedules', [\App\Http\Controllers\Clinic\ScheduleController::class, 'index'])->name('schedules.index');
+        Route::post('/schedules', [\App\Http\Controllers\Clinic\ScheduleController::class, 'store'])->name('schedules.store');
+        Route::delete('/schedules/{schedule}', [\App\Http\Controllers\Clinic\ScheduleController::class, 'destroy'])->name('schedules.destroy');
+
+        // CS Validation Panel
+        Route::get('/transactions', [\App\Http\Controllers\Admin\ClinicTransactionController::class, 'index'])->name('admin.transactions.index');
+        Route::post('/transactions/{transaction}/approve', [\App\Http\Controllers\Admin\ClinicTransactionController::class, 'approve'])->name('admin.transactions.approve');
+        Route::post('/transactions/{transaction}/reject', [\App\Http\Controllers\Admin\ClinicTransactionController::class, 'reject'])->name('admin.transactions.reject');
+
+        // Financial Reports Panel
+        Route::get('/reports', [\App\Http\Controllers\Admin\ClinicReportController::class, 'index'])->name('admin.reports.index');
+    });
+
+    // Patient Routes
+    Route::get('/booking/create', [\App\Http\Controllers\Clinic\BookingController::class, 'create'])->name('booking.create');
+    Route::post('/booking', [\App\Http\Controllers\Clinic\BookingController::class, 'store'])->name('booking.store');
+    Route::get('/booking/{booking}', [\App\Http\Controllers\Clinic\BookingController::class, 'show'])->name('booking.show');
+
+    // Patient Payments
+    Route::get('/payments/{transaction}/upload', [\App\Http\Controllers\Clinic\PaymentController::class, 'uploadForm'])->name('payments.uploadForm');
+    Route::post('/payments/{transaction}', [\App\Http\Controllers\Clinic\PaymentController::class, 'storeProof'])->name('payments.storeProof');
+});

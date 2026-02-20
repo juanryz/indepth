@@ -83,7 +83,7 @@ class TrainingSeeder extends Seeder
                 'category' => 'class',
                 'level' => 'expert',
                 'price' => 2500000,
-                'location_offline' => 'Tirta Bhumi Tech Hub, Jakarta',
+                'location_offline' => 'Indepth Mental Wellness Tech Hub, Jakarta',
                 'location_online' => 'Zoom Access',
                 'is_active' => true,
             ],
@@ -96,7 +96,7 @@ class TrainingSeeder extends Seeder
                 'category' => 'class',
                 'level' => 'expert',
                 'price' => 3000000,
-                'location_offline' => 'Tirta Bhumi HQ, Meeting Room A',
+                'location_offline' => 'Indepth Mental Wellness HQ, Meeting Room A',
                 'is_active' => true,
             ],
             [
@@ -108,7 +108,7 @@ class TrainingSeeder extends Seeder
                 'category' => 'class',
                 'level' => 'intermediate',
                 'price' => 1800000,
-                'location_offline' => 'Tirta Bhumi HQ, Training Center',
+                'location_offline' => 'Indepth Mental Wellness HQ, Training Center',
                 'is_active' => true,
             ],
             [

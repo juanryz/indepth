@@ -8,7 +8,7 @@ return [
     'contact' => 'Kontak',
     'login' => 'Sign In',
     'hero_title_1' => 'Grow Faster, Digitalize Better',
-    'hero_title_2' => 'with Tirta Bhumi Indonesia',
+    'hero_title_2' => 'with Indepth Mental Wellness',
     'hero_subtitle' => 'Kami adalah perusahaan Digital Services, Infrastruktur IT, dan Pengadaan Barang terpercaya. Kami membantu bisnis Anda Go Digital, mengelola jaringan internet, hingga memenuhi kebutuhan operasional kantor dengan mudah.',
     'hero_rotating_text' => [
         'Dipercaya oleh 50+ Instansi Pemerintah',
@@ -34,9 +34,9 @@ return [
     'check_status_again' => 'Cek Status Kembali',
     'try_again' => 'Coba Lagi',
 
-    'why_us_title' => 'Mengapa PT Tirta Bhumi Indonesia?',
+    'why_us_title' => 'Mengapa PT Indepth Mental Wellness?',
     'why_us_subtitle' => 'Mengapa Memilih Kami',
-    'why_us_main_heading' => 'Kenapa Memilih <span class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">PT Tirta Bhumi Indonesia</span>?',
+    'why_us_main_heading' => 'Kenapa Memilih <span class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">PT Indepth Mental Wellness</span>?',
     'why_us_main_desc' => 'Kami bukan sekadar penyedia layanan, melainkan mitra strategis pertumbuhan bisnis Anda. Dengan keahlian teknis dan pemahaman mendalam, kami menghadirkan solusi yang memberikan dampak nyata bagi institusi dan perusahaan.',
     'why_us_stat_1_val' => '150+',
     'why_us_stat_1_label' => 'Klien Puas',
@@ -58,7 +58,7 @@ return [
     'why_us_feat_7_desc' => 'Kami bukan sekadar vendor, melainkan mitra yang tumbuh bersama kesuksesan bisnis Anda.',
     'why_us_feat_8_title' => 'Nilai Terbaik',
     'why_us_feat_8_desc' => 'Menghadirkan keseimbangan sempurna antara inovasi teknologi dan efisiensi biaya investasi.',
-    'why_us_desc' => 'PT Tirta Bhumi Indonesia adalah perusahaan penyedia solusi end-to-end yang menghubungkan kebutuhan teknologi dan operasional bisnis Anda. Kami memahami bahwa setiap sektor—mulai dari Pemerintah (B2G), Pendidikan, Perhotelan, hingga UMKM—memiliki tantangan unik. Dengan dukungan jejaring kemitraan yang luas, kami menghadirkan layanan yang tidak hanya canggih secara digital, namun juga handal dalam pengadaan fisik dan manajemen fasilitas. Satu pintu untuk beragam kebutuhan Anda.',
+    'why_us_desc' => 'PT Indepth Mental Wellness adalah perusahaan penyedia solusi end-to-end yang menghubungkan kebutuhan teknologi dan operasional bisnis Anda. Kami memahami bahwa setiap sektor—mulai dari Pemerintah (B2G), Pendidikan, Perhotelan, hingga UMKM—memiliki tantangan unik. Dengan dukungan jejaring kemitraan yang luas, kami menghadirkan layanan yang tidak hanya canggih secara digital, namun juga handal dalam pengadaan fisik dan manajemen fasilitas. Satu pintu untuk beragam kebutuhan Anda.',
 
     'services_title' => 'Solusi Kami untuk Kebutuhan Anda',
     'services_desc' => 'Layanan terintegrasi untuk mendukung operasional dan pertumbuhan bisnis Anda.',
@@ -291,7 +291,7 @@ return [
     'training_subtitle' => "Akselerasi karir digitalmu dengan kurikulum berbasis proyek nyata yang dirancang khusus untuk era teknologi modern. Kami mencetak talenta digital siap kerja melalui bimbingan langsung dari mentor praktisi terkemuka, mengajak Anda menyelami pengalaman kerja sesungguhnya melalui studi kasus riil.",
     'training_subtitle_highlight' => 'Bukan Sekadar Kursus, Ini Langkah Awal Karir Impianmu.',
     'training_about_title' => 'Apa itu UpVenture?',
-    'training_about_desc' => 'UpVenture adalah platform edukasi digital dari PT Tirta Bhumi Indonesia yang berfokus pada pengembangan skill siap kerja. Kami menghadirkan program pelatihan intensif di bidang teknologi, desain, dan pemasaran digital untuk membantu Anda mencapai potensi maksimal di era ekonomi digital.',
+    'training_about_desc' => 'UpVenture adalah platform edukasi digital dari PT Indepth Mental Wellness yang berfokus pada pengembangan skill siap kerja. Kami menghadirkan program pelatihan intensif di bidang teknologi, desain, dan pemasaran digital untuk membantu Anda mencapai potensi maksimal di era ekonomi digital.',
     'category_title' => 'Materi',
     'category_desc' => 'Temukan pelatihan yang sesuai dengan minat dan tujuan karir Anda.',
     'topic_uiux' => 'UI/UX Design',
@@ -311,7 +311,7 @@ return [
     'privilege_2_title' => 'Akses Selamanya',
     'privilege_2_desc' => 'Materi kelas dapat diakses kapan saja tanpa batasan waktu untuk belajar ulang.',
     'privilege_3_title' => 'Sertifikat Resmi',
-    'privilege_3_desc' => 'Dapatkan sertifikat resmi dari PT Tirta Bhumi Indonesia untuk portofolio Anda.',
+    'privilege_3_desc' => 'Dapatkan sertifikat resmi dari PT Indepth Mental Wellness untuk portofolio Anda.',
     'privilege_4_title' => 'Komunitas Eksklusif',
     'privilege_4_desc' => 'Networking dengan sesama alumni dan mentor untuk berbagi peluang kerja dan ilmu.',
     'training_btn_schedule' => 'Lihat UpVenture Learnings',
@@ -673,7 +673,7 @@ return [
     'view_detail' => 'Lihat Detail',
     'quick_links' => 'Tautan Cepat',
     'connect' => 'Terhubung',
-    'footer_desc_full' => 'PT Tirta Bhumi Indonesia.<br>Mitra Strategis Solusi Digital, Infrastruktur, dan Pengadaan Terpadu.',
+    'footer_desc_full' => 'PT Indepth Mental Wellness.<br>Mitra Strategis Solusi Digital, Infrastruktur, dan Pengadaan Terpadu.',
 
     // Contact Page
     'contact_office' => 'Kantor',
