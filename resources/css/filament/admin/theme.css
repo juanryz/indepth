@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "../../../../vendor/filament/filament/resources/css/base.css";
+
+/* Neumorphic Theme Overrides */
+:root {
+    --gray-50: 236, 240, 243;
+    --primary-web: 79, 70, 229;
+    --shadow-light: 255, 255, 255;
+    --shadow-dark: 209, 217, 230;
+}
+
+body {
+    background-color: rgb(var(--gray-50));
+}
+
+.fi-card,
+.fi-section,
+.fi-widget {
+    background-color: rgb(var(--gray-50)) !important;
+    box-shadow: 10px 10px 20px rgb(var(--shadow-dark)), -10px -10px 20px rgb(var(--shadow-light)) !important;
+    border-radius: 1rem !important;
+    border: none !important;
+}
+
+.fi-btn {
+    box-shadow: 5px 5px 10px rgb(var(--shadow-dark)), -5px -5px 10px rgb(var(--shadow-light)) !important;
+    transition: all 0.3s ease;
+}
+
+.fi-btn:active {
+    box-shadow: inset 5px 5px 10px rgb(var(--shadow-dark)), inset -5px -5px 10px rgb(var(--shadow-light)) !important;
+}
+
+.fi-input,
+.fi-select-input {
+    background-color: rgb(var(--gray-50)) !important;
+    box-shadow: inset 5px 5px 10px rgb(var(--shadow-dark)), inset -5px -5px 10px rgb(var(--shadow-light)) !important;
+    border: none !important;
+    border-radius: 0.5rem !important;
+}
