@@ -66,9 +66,9 @@
         "contactType": "customer service"
       },
       "sameAs": [
-        "https://www.instagram.com/tirtabhumi.id/",
+        "https://www.instagram.com/InDepth Mental Wellness.id/",
         "https://linkedin.com/company/pt-tirta-bhumi-indonesia",
-        "https://www.facebook.com/tirtabhumiid/"
+        "https://www.facebook.com/InDepth Mental Wellnessid/"
       ]
     }
     </script>
@@ -370,19 +370,19 @@
                                     rel="noopener noreferrer"
                                     class="hover:text-indigo-600 transition-all hover:translate-x-1 inline-block">LinkedIn</a>
                             </li>
-                            <li><a href="https://www.instagram.com/tirtabhumi.id/" target="_blank"
+                            <li><a href="https://www.instagram.com/InDepth Mental Wellness.id/" target="_blank"
                                     rel="noopener noreferrer"
                                     class="hover:text-indigo-600 transition-all hover:translate-x-1 inline-block">Instagram</a>
                             </li>
-                            <li><a href="https://www.facebook.com/tirtabhumiid/" target="_blank"
+                            <li><a href="https://www.facebook.com/InDepth Mental Wellnessid/" target="_blank"
                                     rel="noopener noreferrer"
                                     class="hover:text-indigo-600 transition-all hover:translate-x-1 inline-block">Facebook</a>
                             </li>
                             <li><a href="https://wa.me/6282229046099" target="_blank" rel="noopener noreferrer"
                                     class="hover:text-indigo-600 transition-all hover:translate-x-1 inline-block">WhatsApp</a>
                             </li>
-                            <li><a href="mailto:hello@tirtabhumi.com"
-                                    class="hover:text-indigo-600 transition-all hover:translate-x-1 inline-block">hello@tirtabhumi.com</a>
+                            <li><a href="mailto:hello@InDepth Mental Wellness.com"
+                                    class="hover:text-indigo-600 transition-all hover:translate-x-1 inline-block">hello@InDepth Mental Wellness.com</a>
                             </li>
                         </ul>
                     </div>
@@ -493,7 +493,7 @@
                     <div class="mt-auto pt-8 pb-8">
                         <div class="flex gap-4 justify-center">
                             <!-- Instagram -->
-                            <a href="https://www.instagram.com/tirtabhumi.id/" target="_blank" rel="noopener noreferrer"
+                            <a href="https://www.instagram.com/InDepth Mental Wellness.id/" target="_blank" rel="noopener noreferrer"
                                 class="w-10 h-10 rounded-full border border-slate-300 flex items-center justify-center text-slate-600 hover:border-indigo-600 hover:text-indigo-600 transition-all hover:-translate-y-1 hover:shadow-md">
                                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                     <path fill-rule="evenodd"
@@ -502,7 +502,7 @@
                                 </svg>
                             </a>
                             <!-- Facebook -->
-                            <a href="https://www.facebook.com/tirtabhumiid/" target="_blank" rel="noopener noreferrer"
+                            <a href="https://www.facebook.com/InDepth Mental Wellnessid/" target="_blank" rel="noopener noreferrer"
                                 class="w-10 h-10 rounded-full border border-slate-300 flex items-center justify-center text-slate-600 hover:border-indigo-600 hover:text-indigo-600 transition-all hover:-translate-y-1 hover:shadow-md">
                                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                     <path fill-rule="evenodd"
@@ -530,7 +530,7 @@
                                 </svg>
                             </a>
                             <!-- Email -->
-                            <a href="mailto:hello@tirtabhumi.com"
+                            <a href="mailto:hello@InDepth Mental Wellness.com"
                                 class="w-10 h-10 rounded-full border border-slate-300 flex items-center justify-center text-slate-600 hover:border-indigo-600 hover:text-indigo-600 transition-all hover:-translate-y-1 hover:shadow-md">
                                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />

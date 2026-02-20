@@ -1,5 +1,5 @@
 @use('Illuminate\Support\Facades\Storage')
-<x-layout-upventure title="{{ $training->title }} - Tirtabhumi Training" description="{{ Str::limit(strip_tags($training->description), 150) }}">
+<x-layout-upventure title="{{ $training->title }} - InDepth Mental Wellness Training" description="{{ Str::limit(strip_tags($training->description), 150) }}">
 
     <section class="pt-4 pb-24 bg-[#eef2f6]">
         <div class="container mx-auto px-6">

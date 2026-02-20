@@ -19,6 +19,6 @@ class ListPosts extends ListRecords
 
     public function getSubheading(): ?string
     {
-        return 'Kelola artikel blog dan berita resmi Tirtabhumi.';
+        return 'Kelola artikel blog dan berita resmi InDepth Mental Wellness.';
     }
 }

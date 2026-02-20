@@ -1,6 +1,6 @@
-# Tirtabhumi Database Schema Documentation
+# InDepth Mental Wellness Database Schema Documentation
 
-This document outlines the database structure for the Tirtabhumi platform, organized by functional modules.
+This document outlines the database structure for the InDepth Mental Wellness platform, organized by functional modules.
 
 ## 1. Authentication & Users Module
 

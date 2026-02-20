@@ -3,51 +3,65 @@
     <!-- Hero Section -->
     <section class="relative pt-32 pb-4 md:pt-40 md:pb-6 overflow-hidden">
         <div class="absolute inset-0 w-full h-full bg-[#eef2f6]">
-            <div class="absolute top-0 left-1/4 w-96 h-96 bg-indigo-300/30 rounded-full blur-3xl mix-blend-multiply animate-blob"></div>
-            <div class="absolute top-0 right-1/4 w-96 h-96 bg-cyan-300/30 rounded-full blur-3xl mix-blend-multiply animate-blob animation-delay-2000"></div>
-            <div class="absolute -bottom-32 left-1/3 w-96 h-96 bg-purple-300/30 rounded-full blur-3xl mix-blend-multiply animate-blob animation-delay-4000"></div>
+            <div
+                class="absolute top-0 left-1/4 w-96 h-96 bg-indigo-300/30 rounded-full blur-3xl mix-blend-multiply animate-blob">
+            </div>
+            <div
+                class="absolute top-0 right-1/4 w-96 h-96 bg-cyan-300/30 rounded-full blur-3xl mix-blend-multiply animate-blob animation-delay-2000">
+            </div>
+            <div
+                class="absolute -bottom-32 left-1/3 w-96 h-96 bg-purple-300/30 rounded-full blur-3xl mix-blend-multiply animate-blob animation-delay-4000">
+            </div>
         </div>
 
         <div class="relative container mx-auto px-6 z-10">
             <!-- Breadcrumb (Modern) -->
             <div class="mb-10 animate-fade-in-up">
-                <x-breadcrumb :paths="[__('messages.services') => '/#services']" :current="__('messages.service_digital_title')" class="mb-0" />
+                <x-breadcrumb :paths="[__('messages.services') => '/#services']"
+                    :current="__('messages.service_digital_title')" class="mb-0" />
             </div>
 
             <div class="flex flex-col lg:flex-row items-center gap-16">
                 <!-- Text Column -->
                 <div class="lg:w-7/12 text-left">
-                    <div class="inline-flex items-center px-4 py-2 rounded-full bg-indigo-50 border border-indigo-100 mb-8 animate-fade-in-up">
+                    <div
+                        class="inline-flex items-center px-4 py-2 rounded-full bg-indigo-50 border border-indigo-100 mb-8 animate-fade-in-up">
                         <span class="flex h-2 w-2 rounded-full bg-indigo-600 mr-3 animate-pulse"></span>
-                        <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider">Digital Innovation</span>
+                        <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider">Digital
+                            Innovation</span>
                     </div>
-                    <h1 class="text-5xl md:text-6xl font-bold tracking-tight mb-6 text-slate-900 leading-[1.1] animate-fade-in-up">
+                    <h1
+                        class="text-5xl md:text-6xl font-bold tracking-tight mb-6 text-slate-900 leading-[1.1] animate-fade-in-up">
                         {{ __('messages.service_digital_title') }}
                     </h1>
-                    <p class="text-base md:text-lg text-slate-500 mb-10 max-w-xl leading-relaxed animate-fade-in-up" style="animation-delay: 0.2s">
+                    <p class="text-base md:text-lg text-slate-500 mb-10 max-w-xl leading-relaxed animate-fade-in-up"
+                        style="animation-delay: 0.2s">
                         {!! nl2br(e(__('messages.service_digital_desc_full'))) !!}
                     </p>
                     <div class="flex flex-wrap gap-4 animate-fade-in-up" style="animation-delay: 0.4s">
-                        <a href="https://wa.me/6282229046099" target="_blank" class="neu-btn px-8 py-3.5 rounded-2xl bg-indigo-600 text-white font-bold hover:bg-indigo-700 transition-all text-sm">
+                        <a href="https://wa.me/6282229046099" target="_blank"
+                            class="neu-btn px-8 py-3.5 rounded-2xl bg-indigo-600 text-white font-bold hover:bg-indigo-700 transition-all text-sm">
                             {{ __('messages.get_started') }}
                         </a>
-                        <a href="#detailed-services" class="neu-btn px-8 py-3.5 rounded-2xl bg-white text-indigo-600 font-bold hover:bg-slate-50 transition-all text-sm">
-                             {{ __('messages.our_services') }}
+                        <a href="#detailed-services"
+                            class="neu-btn px-8 py-3.5 rounded-2xl bg-white text-indigo-600 font-bold hover:bg-slate-50 transition-all text-sm">
+                            {{ __('messages.our_services') }}
                         </a>
                     </div>
                 </div>
 
-          
+
                 <!-- Image Column -->
                 <div class="lg:w-5/12 relative animate-fade-in-up" style="animation-delay: 0.6s">
                     <div class="neu-flat p-4 rounded-[2.5rem] relative z-10">
-                        <img src="{{ asset('images/service-digital-3d.png') }}" alt="Layanan Digital" class="w-full h-full object-cover rounded-[2rem] shadow-sm">
+                        <img src="{{ asset('images/service-digital-3d.png') }}" alt="Layanan Digital"
+                            class="w-full h-full object-cover rounded-[2rem] shadow-sm">
                     </div>
                     <!-- Decorative Elements -->
                     <div class="absolute -top-8 -right-8 w-32 h-32 bg-cyan-400/20 rounded-full blur-2xl z-0"></div>
                     <div class="absolute -bottom-8 -left-8 w-40 h-40 bg-indigo-400/20 rounded-full blur-2xl z-0"></div>
                 </div>
-        </div>
+            </div>
     </section>
 
     <!-- Detailed Services -->
@@ -55,38 +69,54 @@
         <div class="container mx-auto px-6">
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Software & Web Development -->
-                <div class="neu-flat rounded-3xl border border-white/50 hover:border-indigo-300 transition-all duration-300 overflow-hidden group flex flex-col h-full bg-white/40 backdrop-blur-sm">
+                <div
+                    class="neu-flat rounded-3xl border border-white/50 hover:border-indigo-300 transition-all duration-300 overflow-hidden group flex flex-col h-full bg-white/40 backdrop-blur-sm">
                     <!-- Image -->
                     <div class="relative h-64 w-full overflow-hidden bg-slate-100">
-                        <img src="{{ asset('images/service-digital-web.jpg') }}" alt="Natural Web Development" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent"></div>
+                        <img src="{{ asset('images/service-digital-web.jpg') }}" alt="Natural Web Development"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent">
+                        </div>
                     </div>
-                    
+
                     <!-- Content -->
                     <div class="p-8 flex flex-col flex-grow">
                         <h3 class="text-2xl font-bold mb-4 text-slate-800">{{ __('messages.digital_sub_1_title') }}</h3>
                         <p class="text-slate-500 mb-6 leading-relaxed">
                             {{ __('messages.digital_sub_1_desc') }}
                         </p>
-                        
+
                         <!-- Features List -->
                         <ul class="space-y-3 mb-8">
                             <li class="flex items-center text-slate-600 text-sm">
-                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
                                 {{ __('messages.digital_sub_1_list_1') }}
                             </li>
                             <li class="flex items-center text-slate-600 text-sm">
-                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
                                 {{ __('messages.digital_sub_1_list_2') }}
                             </li>
                             <li class="flex items-center text-slate-600 text-sm">
-                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
                                 {{ __('messages.digital_sub_1_list_3') }}
                             </li>
                         </ul>
 
                         <div class="mt-auto">
-                            <a href="{{ route('webbundling') }}" class="neu-btn block w-full py-3 text-center font-bold text-indigo-600 hover:text-indigo-700 transition-colors">
+                            <a href="{{ route('webbundling') }}"
+                                class="neu-btn block w-full py-3 text-center font-bold text-indigo-600 hover:text-indigo-700 transition-colors">
                                 {{ __('messages.learn_more') }}
                             </a>
                         </div>
@@ -94,40 +124,59 @@
                 </div>
 
                 <!-- Automation & AI -->
-                <div class="neu-flat rounded-3xl border border-white/50 hover:border-indigo-300 transition-all duration-300 overflow-hidden group flex flex-col h-full bg-white/40 backdrop-blur-sm">
+                <div
+                    class="neu-flat rounded-3xl border border-white/50 hover:border-indigo-300 transition-all duration-300 overflow-hidden group flex flex-col h-full bg-white/40 backdrop-blur-sm">
                     <!-- Image -->
                     <div class="relative h-64 w-full overflow-hidden bg-slate-100">
-                        <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=1000" alt="Kecerdasan Buatan (AI)" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
+                        <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=1000"
+                            alt="Kecerdasan Buatan (AI)"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent">
+                        </div>
                     </div>
-                    
+
                     <!-- Content -->
                     <div class="p-8 flex flex-col flex-grow">
                         <h3 class="text-2xl font-bold mb-4 text-slate-800">{{ __('messages.digital_sub_2_title') }}</h3>
                         <p class="text-slate-500 mb-6 leading-relaxed">
                             {{ __('messages.digital_sub_2_desc') }}
                         </p>
-                        
+
                         <!-- Features List -->
                         <ul class="space-y-3 mb-8">
                             <li class="flex items-center text-slate-600 text-sm">
-                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
                                 {{ __('messages.digital_sub_2_list_1') }}
                             </li>
                             <li class="flex items-center text-slate-600 text-sm">
-                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
                                 {{ __('messages.digital_sub_2_list_2') }}
                             </li>
                             <li class="flex items-center text-slate-600 text-sm">
-                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
                                 {{ __('messages.digital_sub_2_list_3') }}
                             </li>
                         </ul>
 
                         <div class="mt-auto">
-                            <button onclick="openAiChat()" class="neu-btn w-full py-3 font-bold text-indigo-600 flex items-center justify-center gap-2 hover:bg-indigo-50 transition-all">
+                            <button onclick="openAiChat()"
+                                class="neu-btn w-full py-3 font-bold text-indigo-600 flex items-center justify-center gap-2 hover:bg-indigo-50 transition-all">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z">
+                                    </path>
                                 </svg>
                                 Try AI Demo
                             </button>
@@ -151,7 +200,7 @@
                                     </svg>
                                 </div>
                                 <div>
-                                    <h3 class="font-bold text-sm">Tirtabhumi AI Assistant</h3>
+                                    <h3 class="font-bold text-sm">InDepth Mental Wellness AI Assistant</h3>
                                     <p class="text-xs text-indigo-200 flex items-center gap-1">
                                         <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span> Online
                                     </p>
@@ -222,8 +271,8 @@
                                     </div>
                                     <div
                                         class="neu-flat p-3 rounded-2xl rounded-tl-none border-white/50 text-sm text-slate-600">
-                                        Halo! Saya asisten AI Tirtabhumi. Saya siap membantu kebutuhan <span
-                                            id="selected-industry-text" class="font-bold"></span> Anda. Ada yang bisa
+                                        Halo! Saya asisten AI InDepth Mental Wellness. Saya siap membantu kebutuhan
+                                        <span id="selected-industry-text" class="font-bold"></span> Anda. Ada yang bisa
                                         saya bantu?
                                     </div>
                                 </div>
@@ -451,38 +500,56 @@
                 </script>
 
                 <!-- Digital Marketing -->
-                <div class="neu-flat rounded-3xl border border-white/50 hover:border-indigo-300 transition-all duration-300 overflow-hidden group flex flex-col h-full bg-white/40 backdrop-blur-sm">
+                <div
+                    class="neu-flat rounded-3xl border border-white/50 hover:border-indigo-300 transition-all duration-300 overflow-hidden group flex flex-col h-full bg-white/40 backdrop-blur-sm">
                     <!-- Image -->
                     <div class="relative h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000" alt="Digital Marketing and Performance Analytics" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/40 to-transparent"></div>
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000"
+                            alt="Digital Marketing and Performance Analytics"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/40 to-transparent">
+                        </div>
                     </div>
-                    
+
                     <!-- Content -->
                     <div class="p-8 flex flex-col flex-grow">
                         <h3 class="text-2xl font-bold mb-4 text-slate-800">{{ __('messages.digital_sub_3_title') }}</h3>
                         <p class="text-slate-500 mb-6 leading-relaxed">
                             {{ __('messages.digital_sub_3_desc') }}
                         </p>
-                        
+
                         <!-- Features List -->
                         <ul class="space-y-3 mb-8">
                             <li class="flex items-center text-slate-600 text-sm">
-                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
                                 {{ __('messages.digital_sub_3_list_1') }}
                             </li>
                             <li class="flex items-center text-slate-600 text-sm">
-                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
                                 {{ __('messages.digital_sub_3_list_2') }}
                             </li>
                             <li class="flex items-center text-slate-600 text-sm">
-                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
                                 {{ __('messages.digital_sub_3_list_3') }}
                             </li>
                         </ul>
 
                         <div class="mt-auto">
-                            <a href="{{ route('digitalmarketing') }}" class="neu-btn block w-full py-3 text-center font-bold text-indigo-600 hover:text-indigo-700 transition-colors">
+                            <a href="{{ route('digitalmarketing') }}"
+                                class="neu-btn block w-full py-3 text-center font-bold text-indigo-600 hover:text-indigo-700 transition-colors">
                                 {{ __('messages.learn_more') }}
                             </a>
                         </div>
@@ -495,8 +562,12 @@
     <!-- Why Us Section (Integrated from Homepage style) -->
     <!-- Part 1: Branding Intro -->
     <section id="why-us" class="py-24 bg-white relative overflow-hidden group">
-        <div class="absolute inset-x-0 top-0 h-full bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:24px_24px] opacity-40 -z-0"></div>
-        <div class="absolute top-0 right-0 w-96 h-96 bg-indigo-50/50 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 opacity-70"></div>
+        <div
+            class="absolute inset-x-0 top-0 h-full bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:24px_24px] opacity-40 -z-0">
+        </div>
+        <div
+            class="absolute top-0 right-0 w-96 h-96 bg-indigo-50/50 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 opacity-70">
+        </div>
 
         <div class="container mx-auto px-6 relative z-10">
             <div class="flex flex-col lg:flex-row gap-16 items-center">
@@ -508,27 +579,40 @@
                         {{ __('messages.digital_why_subtitle') }} {{ __('messages.service_digital_desc') }}
                     </p>
                     <div class="flex flex-wrap gap-4 mt-10">
-                        <div class="neu-flat px-6 py-3 flex items-center gap-4 hover:-translate-y-1 transition-transform duration-300">
-                            <div class="w-10 h-10 rounded-full bg-indigo-50 flex items-center justify-center text-indigo-600 shadow-sm">
+                        <div
+                            class="neu-flat px-6 py-3 flex items-center gap-4 hover:-translate-y-1 transition-transform duration-300">
+                            <div
+                                class="w-10 h-10 rounded-full bg-indigo-50 flex items-center justify-center text-indigo-600 shadow-sm">
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+                                    </path>
                                 </svg>
                             </div>
-                            <div class="text-[11px] font-black text-slate-700 uppercase tracking-wider leading-tight">Expert<br>Digital Team</div>
+                            <div class="text-[11px] font-black text-slate-700 uppercase tracking-wider leading-tight">
+                                Expert<br>Digital Team</div>
                         </div>
-                        <div class="neu-flat px-6 py-3 flex items-center gap-4 hover:-translate-y-1 transition-transform duration-300">
-                            <div class="w-10 h-10 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600 shadow-sm">
+                        <div
+                            class="neu-flat px-6 py-3 flex items-center gap-4 hover:-translate-y-1 transition-transform duration-300">
+                            <div
+                                class="w-10 h-10 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600 shadow-sm">
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
+                                    </path>
                                 </svg>
                             </div>
-                            <div class="text-[11px] font-black text-slate-700 uppercase tracking-wider leading-tight">Proven<br>Data Success</div>
+                            <div class="text-[11px] font-black text-slate-700 uppercase tracking-wider leading-tight">
+                                Proven<br>Data Success</div>
                         </div>
                     </div>
                 </div>
                 <div class="lg:w-6/12 animate-fade-in-up" style="animation-delay: 0.2s">
-                    <div class="relative rounded-[3rem] overflow-hidden shadow-2xl border-8 border-slate-50 group-hover:border-white transition-all duration-500 hover:scale-[1.02]">
-                        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Consulting Digital" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="relative rounded-[3rem] overflow-hidden shadow-2xl border-8 border-slate-50 group-hover:border-white transition-all duration-500 hover:scale-[1.02]">
+                        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
+                            alt="Consulting Digital"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                         <div class="absolute inset-0 bg-gradient-to-tr from-indigo-900/10 to-transparent z-10"></div>
                     </div>
                 </div>
@@ -538,10 +622,13 @@
 
     <!-- Part 2: Feature Grid -->
     <section id="why-choose-us" class="py-24 bg-[#eef2f6] relative overflow-hidden">
-        <div class="absolute inset-0 bg-[radial-gradient(#d1d9e6_1px,transparent_1px)] [background-size:32px_32px] opacity-20 -z-10"></div>
+        <div
+            class="absolute inset-0 bg-[radial-gradient(#d1d9e6_1px,transparent_1px)] [background-size:32px_32px] opacity-20 -z-10">
+        </div>
         <div class="container mx-auto px-6 relative z-10">
             <div class="text-center max-w-2xl mx-auto mb-16 animate-fade-in-up">
-                <span class="text-xs font-black text-indigo-600 uppercase tracking-[0.3em] block mb-4">Digital Excellence</span>
+                <span class="text-xs font-black text-indigo-600 uppercase tracking-[0.3em] block mb-4">Digital
+                    Excellence</span>
                 <h3 class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6 leading-snug">
                     {{ __('messages.digital_why_subtitle') }}
                 </h3>
@@ -558,14 +645,17 @@
                 @endphp
 
                 @foreach ($digitalFeatures as $f)
-                    <div class="group neu-flat p-6 transition-all duration-300 hover:scale-[1.02] flex flex-col animate-fade-in-up" 
-                         style="animation-delay: {{ 0.3 + ($loop->index * 0.1) }}s">
-                        <div class="w-12 h-12 rounded-2xl bg-{{ $f['color'] }}-50 flex items-center justify-center text-{{ $f['color'] }}-600 mb-6 shadow-sm group-hover:scale-110 transition-transform duration-300 relative z-10">
+                    <div class="group neu-flat p-6 transition-all duration-300 hover:scale-[1.02] flex flex-col animate-fade-in-up"
+                        style="animation-delay: {{ 0.3 + ($loop->index * 0.1) }}s">
+                        <div
+                            class="w-12 h-12 rounded-2xl bg-{{ $f['color'] }}-50 flex items-center justify-center text-{{ $f['color'] }}-600 mb-6 shadow-sm group-hover:scale-110 transition-transform duration-300 relative z-10">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="{{ $f['icon'] }}"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="{{ $f['icon'] }}">
+                                </path>
                             </svg>
                         </div>
-                        <h4 class="text-lg font-bold text-slate-900 mb-3 group-hover:text-indigo-600 transition-colors relative z-20">
+                        <h4
+                            class="text-lg font-bold text-slate-900 mb-3 group-hover:text-indigo-600 transition-colors relative z-20">
                             {{ $f['title'] }}
                         </h4>
                         <p class="text-slate-500 text-xs leading-relaxed flex-grow relative z-20">
@@ -580,15 +670,19 @@
     <!-- Process Section (Styled like Homepage Why Choose Us) -->
     <section id="our-process" class="py-24 bg-[#eef2f6] relative overflow-hidden">
         <!-- Background Texture -->
-        <div class="absolute inset-0 bg-[radial-gradient(#d1d9e6_1px,transparent_1px)] [background-size:32px_32px] opacity-20 -z-10"></div>
-        
+        <div
+            class="absolute inset-0 bg-[radial-gradient(#d1d9e6_1px,transparent_1px)] [background-size:32px_32px] opacity-20 -z-10">
+        </div>
+
         <div class="container mx-auto px-6 relative z-10">
             <div class="text-center max-w-2xl mx-auto mb-16 animate-fade-in-up">
-                <span class="text-xs font-black text-indigo-600 uppercase tracking-[0.3em] block mb-4">Our Workflow</span>
-                <h2 class="text-3xl md:text-5xl font-extrabold text-slate-800 mb-4 leading-snug">{{ __('messages.digital_process_title') }}</h2>
+                <span class="text-xs font-black text-indigo-600 uppercase tracking-[0.3em] block mb-4">Our
+                    Workflow</span>
+                <h2 class="text-3xl md:text-5xl font-extrabold text-slate-800 mb-4 leading-snug">
+                    {{ __('messages.digital_process_title') }}</h2>
                 <p class="text-slate-500 mx-auto">{{ __('messages.digital_process_subtitle') }}</p>
             </div>
-            
+
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
                 @php
                     $workflowSteps = [
@@ -620,16 +714,19 @@
                 @endphp
 
                 @foreach ($workflowSteps as $s)
-                    <div class="group neu-flat p-8 transition-all duration-300 hover:scale-[1.05] flex flex-col animate-fade-in-up relative overflow-hidden" 
-                         style="animation-delay: {{ 0.2 + ($loop->index * 0.1) }}s">
-                        
-                        <div class="w-14 h-14 rounded-2xl bg-{{ $s['color'] }}-50 flex items-center justify-center text-{{ $s['color'] }}-600 mb-8 shadow-sm group-hover:scale-110 transition-transform duration-300 relative z-10">
+                    <div class="group neu-flat p-8 transition-all duration-300 hover:scale-[1.05] flex flex-col animate-fade-in-up relative overflow-hidden"
+                        style="animation-delay: {{ 0.2 + ($loop->index * 0.1) }}s">
+
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-{{ $s['color'] }}-50 flex items-center justify-center text-{{ $s['color'] }}-600 mb-8 shadow-sm group-hover:scale-110 transition-transform duration-300 relative z-10">
                             <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="{{ $s['icon'] }}"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                                    d="{{ $s['icon'] }}"></path>
                             </svg>
                         </div>
 
-                        <h4 class="text-xl font-bold text-slate-900 mb-4 group-hover:text-indigo-600 transition-colors relative z-20">
+                        <h4
+                            class="text-xl font-bold text-slate-900 mb-4 group-hover:text-indigo-600 transition-colors relative z-20">
                             {{ $s['title'] }}
                         </h4>
                         <p class="text-slate-500 text-sm leading-relaxed flex-grow relative z-20">

@@ -19,8 +19,8 @@ class AiChatController extends Controller
         $industry = $request->input('industry', 'General');
 
         // System Prompt yang lebih detail
-        $systemPrompt = "Anda adalah asisten AI profesional untuk PT Tirta Bhumi Indonesia (Tirtabhumi).
-        Tirtabhumi adalah perusahaan solusi digital, infrastruktur IT, dan pengadaan.
+        $systemPrompt = "Anda adalah asisten AI profesional untuk InDepth Mental Wellness.
+        InDepth Mental Wellness adalah klinik layanan psikologi dan konseling.
         
         Layanan Utama:
         1. Digital: Pembuatan Web & Aplikasi, AI Automation, Digital Marketing (Google Ads, Meta Ads).
@@ -30,11 +30,11 @@ class AiChatController extends Controller
 
         Target Market: B2G (Pemerintah), Enterprise, Universitas/Sekolah, Hotel, dan UMKM.
         
-        Tujuan Anda: Memberikan konsultasi awal yang ramah untuk industri '{$industry}'.
+        Tujuan Anda: Memberikan konsultasi awal yang ramah untuk klien/pasien.
         Aturan Penting:
-        - Jika ditanya harga, jelaskan ada paket-paket (Starter, Business, Enterprise) dan arahkan untuk konsultasi lebih lanjut via WhatsApp.
-        - Jika ditanya hal teknis di luar layanan Tirtabhumi, arahkan kembali ke solusi Tirtabhumi.
-        - SELALU gunakan Bahasa Indonesia yang santun.
+        - Jika ditanya harga, jelaskan ada paket-paket (Sesi Tunggal, Bundling) dan arahkan untuk konsultasi lebih lanjut via WhatsApp.
+        - Jika ditanya hal medis di luar layanan InDepth Mental Wellness, sarankan untuk mengunjungi dokter spesiesialis atau psikiater.
+        - SELALU gunakan Bahasa Indonesia yang santun dan empati.
         - Respons harus ringkas (max 3 kalimat).
         - Anda Sedang mensimulasikan percakapan konsultasi nyata.";
 
@@ -117,7 +117,7 @@ class AiChatController extends Controller
             switch ($industry) {
                 case 'Logistics':
                     if (str_contains($message, 'tracking') || str_contains($message, 'lacak')) {
-                        $reply = "Tirtabhumi dapat mengimplementasikan sistem IoT GPS Tracking realtime untuk armada logistik Anda, terintegrasi dengan dashboard monitoring terpusat.";
+                        $reply = "InDepth Mental Wellness dapat mengimplementasikan sistem IoT GPS Tracking realtime untuk armada logistik Anda, terintegrasi dengan dashboard monitoring terpusat.";
                     } elseif (str_contains($message, 'gudang') || str_contains($message, 'warehouse')) {
                         $reply = "Kami memiliki solusi Warehouse Management System (WMS) yang dapat mengotomatisasi pencatatan stok dan alur barang masuk/keluar menggunakan barcode/RFID.";
                     } else {
@@ -131,7 +131,7 @@ class AiChatController extends Controller
                     } elseif (str_contains($message, 'karyawan') || str_contains($message, 'absen')) {
                         $reply = "Solusi HRIS dan absensi berbasis wajah (Face Recognition) kami sangat cocok untuk lingkungan pabrik dengan ribuan karyawan.";
                     } else {
-                        $reply = "Di Manufaktur, Tirtabhumi membantu digitalisasi lantai produksi (Shop Floor) dan integrasi data inventaris. Bagian mana yang ingin Anda optimalkan?";
+                        $reply = "Di Manufaktur, InDepth Mental Wellness membantu digitalisasi lantai produksi (Shop Floor) dan integrasi data inventaris. Bagian mana yang ingin Anda optimalkan?";
                     }
                     break;
 
@@ -157,12 +157,12 @@ class AiChatController extends Controller
                     if (str_contains($message, 'lemot') || str_contains($message, 'cepat')) {
                         $reply = "Layanan Managed Service kami menjamin kestabilan koneksi dengan perangkat Enterprise Grade (Aruba/Ruckus/Ubiquiti) dan monitoring 24/7.";
                     } else {
-                        $reply = "Solusi Wi-Fi Tirtabhumi mencakup desain coverage area, instalasi rapi, hingga manajemen user hotspot/voucher. Berapa luas area yang ingin dicover?";
+                        $reply = "Solusi Wi-Fi InDepth Mental Wellness mencakup desain coverage area, instalasi rapi, hingga manajemen user hotspot/voucher. Berapa luas area yang ingin dicover?";
                     }
                     break;
 
                 default: // General
-                    $reply = "Tirtabhumi menyediakan solusi Digital, Infrastruktur IT, dan Pengadaan. Apakah Anda ingin mendiskusikan pembuatan Website, Aplikasi, atau instalasi Jaringan?";
+                    $reply = "InDepth Mental Wellness menyediakan layanan konseling dan terapi psikologi. Apakah Anda ingin mendiskusikan sesi konsultasi?";
                     break;
             }
         }

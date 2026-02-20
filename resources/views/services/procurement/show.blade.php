@@ -1,5 +1,5 @@
 @use('Illuminate\Support\Facades\Storage')
-<x-layout title="{{ $product->name }} - Tirtabhumi Procurement" description="{{ Str::limit(strip_tags($product->description), 150) }}">
+<x-layout title="{{ $product->name }} - InDepth Mental Wellness Procurement" description="{{ Str::limit(strip_tags($product->description), 150) }}">
 
     <article class="pt-32 pb-24 bg-[#eef2f6] min-h-screen relative z-10">
         <div class="container mx-auto px-4 sm:px-6">

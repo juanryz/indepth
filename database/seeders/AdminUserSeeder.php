@@ -13,7 +13,7 @@ class AdminUserSeeder extends Seeder
      */
     public function run(): void
     {
-        $email = 'admin@tirtabhumi.com';
+        $email = 'admin@indepthmentalwellness.com';
         // Hindari duplikasi jika sudah ada
         $existing = User::where('email', $email)->first();
         if (!$existing) {

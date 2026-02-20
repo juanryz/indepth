@@ -359,17 +359,17 @@
                                 rel="noopener noreferrer"
                                 class="hover:text-indigo-600 transition-all hover:translate-x-1 inline-block">LinkedIn</a>
                         </li>
-                        <li><a href="https://www.instagram.com/tirtabhumi.id/" target="_blank" rel="noopener noreferrer"
+                        <li><a href="https://www.instagram.com/InDepth Mental Wellness.id/" target="_blank" rel="noopener noreferrer"
                                 class="hover:text-indigo-600 transition-all hover:translate-x-1 inline-block">Instagram</a>
                         </li>
-                        <li><a href="https://www.facebook.com/tirtabhumiid/" target="_blank" rel="noopener noreferrer"
+                        <li><a href="https://www.facebook.com/InDepth Mental Wellnessid/" target="_blank" rel="noopener noreferrer"
                                 class="hover:text-indigo-600 transition-all hover:translate-x-1 inline-block">Facebook</a>
                         </li>
                         <li><a href="https://wa.me/6282229046099" target="_blank" rel="noopener noreferrer"
                                 class="hover:text-indigo-600 transition-all hover:translate-x-1 inline-block">WhatsApp</a>
                         </li>
-                        <li><a href="mailto:hello@tirtabhumi.com"
-                                class="hover:text-indigo-600 transition-all hover:translate-x-1 inline-block">hello@tirtabhumi.com</a>
+                        <li><a href="mailto:hello@InDepth Mental Wellness.com"
+                                class="hover:text-indigo-600 transition-all hover:translate-x-1 inline-block">hello@InDepth Mental Wellness.com</a>
                         </li>
                     </ul>
                 </div>
@@ -495,7 +495,7 @@
                                         clip-rule="evenodd" />
                                 </svg>
                             </a>
-                            <a href="https://www.instagram.com/tirtabhumi.id/" target="_blank" rel="noopener noreferrer"
+                            <a href="https://www.instagram.com/InDepth Mental Wellness.id/" target="_blank" rel="noopener noreferrer"
                                 class="text-slate-400 hover:text-pink-600 transition-colors">
                                 <span class="sr-only">Instagram</span>
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -504,7 +504,7 @@
                                         clip-rule="evenodd" />
                                 </svg>
                             </a>
-                            <a href="https://www.facebook.com/tirtabhumiid/" target="_blank" rel="noopener noreferrer"
+                            <a href="https://www.facebook.com/InDepth Mental Wellnessid/" target="_blank" rel="noopener noreferrer"
                                 class="text-slate-400 hover:text-blue-600 transition-colors">
                                 <span class="sr-only">Facebook</span>
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
